@@ -1,0 +1,154 @@
+/* Generelt */
+
+h1 {
+    font-family: "raleway", sans-serif;
+}
+
+h2 {
+    font-family: "raleway", sans-serif;
+}
+
+ul {
+    font-family: "raleway", sans-serif;
+    text-align: left;
+    font-size: 1.35em;
+}
+
+
+p {
+    font-family: "raleway", sans-serif;
+    font-size: 0.8em;
+    display: inline;
+
+
+}
+
+/* Form */
+
+
+.space {
+    margin: 1px;
+}
+
+.label {
+    width: 160px;
+    color: black;
+    display: inline-block;
+}
+
+
+th {
+    padding: 1px;
+    font-family: "raleway", sans-serif;
+}
+
+
+td {
+    padding: 5px;
+
+}
+
+
+.social_login_icon {
+    height: 24px;
+    width: 24px;
+
+}
+
+
+.fieldset {
+    width: 400px;
+    align-content: center;
+    outline-style: inset;
+    color: black;
+    margin: auto;
+
+}
+
+
+
+/* Menu bar */
+
+a {
+    text-decoration: none;
+    font-family: "raleway", sans-serif;
+}
+
+
+.toplink {
+    color: black;
+    font-family: "raleway", sans-serif;
+    font-weight: 600;
+
+}
+
+.box_2:hover {
+
+    color: lightblue;
+}
+
+.toplinkContainer {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.box_2 {
+    color: black;
+    background-color: floralwhite;
+    Width: 150px;
+    height: 15px;
+    margin: -12px 0;
+    margin-right: 10px;
+
+    text-align: center;
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 1em;
+    display: grid;
+
+    background-color: blanchedalmond;
+    box-shadow: 5px 5px 5px lightblue;
+
+    transition: color 300ms
+}
+
+.activelink {
+    color: orangered;
+
+}
+
+
+/* Float life */
+
+.img_float_container {
+
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Bootstrap overwrite */
+
+.container_background {
+    background-color: floralwhite;
+
+}
+
+.no_gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-custom {
+    background-color: floralwhite;
+}

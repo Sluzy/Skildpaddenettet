@@ -1,0 +1,218 @@
+/* Generelt */
+
+
+
+p {
+    color: black;
+    font-family: "raleway", sans-serif;
+    font-size: 1.35em;
+    text-align: justify
+}
+
+h1 {
+    font-family: "raleway", sans-serif;
+}
+
+h2 {
+    font-family: "raleway", sans-serif;
+    text-align: center;
+}
+
+
+ul {
+    font-family: "raleway", sans-serif;
+    text-align: left;
+    font-size: 1.35em;
+
+
+}
+
+li {
+    font-family: "raleway", sans-serif;
+    text-align: left;
+    font-size: 1.em;
+}
+
+
+
+/* Menu bar */
+
+a {
+    text-decoration: none !important;
+     !important font-family: "raleway", sans-serif;
+}
+
+
+.toplink {
+    color: black;
+    font-family: "raleway", sans-serif;
+    font-weight: 600;
+
+}
+
+.box_2:hover {
+
+    color: lightblue;
+}
+
+.toplinkContainer {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.box_2 {
+    color: black;
+    background-color: floralwhite;
+    Width: 150px;
+    height: 25px;
+    margin: -12px 0;
+    margin-right: 10px;
+
+    text-align: center;
+    padding: 20px;
+    border: 2px solid darkgray;
+    border-radius: 1em;
+    display: grid;
+
+    background-color: blanchedalmond;
+    box-shadow: 5px 5px 5px lightblue;
+
+    transition: color 300ms;
+    text-decoration: none !important;
+}
+
+.activelink {
+    color: orangered;
+
+}
+
+/* Forside specefikt */
+
+
+.box {
+    color: black;
+    background-color: floralwhite;
+    Width: 1200px;
+    height: 650px;
+    margin: auto;
+
+    text-align: center;
+    padding: 25px;
+    border: 2px solid darkgray;
+    display: grid;
+
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: "skild padde"
+        "skild padde";
+
+
+    grid-column-gap: 5px;
+}
+
+.box_img {
+
+    justify-self: center;
+    align-self: center;
+
+    grid-area: padde;
+
+}
+
+.box_text {
+    grid-area: skild;
+}
+
+.box_text_2 {
+    grid-area: strand
+}
+
+
+/* Samarbejdspartner */
+
+.box_3 {
+    color: black;
+    background-color: floralwhite;
+    Width: 1200px;
+    height: 650px;
+    margin: auto;
+    display: grid;
+
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: "sap_left sap_right""sap_left_2 sap_right";
+
+    grid-column-gap: 100px;
+
+
+    text-align: center;
+    padding: 25px;
+    border: 2px solid darkgray;
+}
+
+.sa_box_text_1 {
+    grid-area: sap_left;
+
+}
+
+.sa_box_text_2 {
+    grid-area: sap_left_2;
+}
+
+
+.sa_box_pic {
+    grid-area: sap_right;
+    max-width: 50px;
+}
+
+
+/* Wireframes */
+
+
+.box_4 {
+    color: black;
+    background-color: floralwhite;
+    Width: 650px;
+    height: 650px;
+    margin: auto;
+
+    grid-column-gap: 25px;
+
+    text-align: center;
+    padding: 50px;
+    border: 2px solid darkgray;
+}
+
+
+/* forms */
+
+
+.space {
+    margin: 5px;
+
+}
+
+.label {
+
+    width: 200px;
+    color: red;
+    display: inline-block;
+}
+
+
+/* Bootstrap overwrite */
+
+.container_background {
+    background-color: floralwhite;
+
+}
+
+.no_gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.navbar-custom {
+    background-color: floralwhite;
+}
